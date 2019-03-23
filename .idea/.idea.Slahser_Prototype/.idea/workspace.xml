@@ -20,58 +20,161 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="58" />
+          <entry key="cs" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="58" />
+          <entry key="C#" value="135" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="525">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
-                <marker date="1553368740669" expanded="true" signature="135:7909" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="2643:3332" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="3348:5113" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="3368:3451" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="3457:3511" ph="/* Get mouse movement to orbit the camera. ... */" />
-                <marker date="1553368740669" expanded="true" signature="4599:4783" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="4757:4778" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5231:5309" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5388:5460" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5530:5571" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5640:5671" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5742:5773" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5841:5877" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="5944:5981" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="6072:6117" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="6218:6274" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="6445:6653" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="6767:7288" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="6983:7180" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="7108:7176" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="7427:7738" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="7570:7720" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="7688:7716" ph="{...}" />
-                <marker date="1553368740669" expanded="true" signature="7830:7907" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="135:7959" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="2636:3382" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="3398:5163" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="3418:3501" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="3507:3561" ph="/* Get mouse movement to orbit the camera. ... */" />
+                <marker date="1553371889625" expanded="true" signature="4649:4833" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="4807:4828" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5281:5359" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5438:5510" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5580:5621" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5690:5721" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5792:5823" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5891:5927" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="5994:6031" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="6122:6167" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="6268:6324" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="6495:6703" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="6817:7338" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7033:7230" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7158:7226" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7477:7788" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7620:7770" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7738:7766" ph="{...}" />
+                <marker date="1553371889625" expanded="true" signature="7880:7957" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <marker date="1553371927635" expanded="false" signature="6:52" ph="..." />
+                <marker date="1553371927635" expanded="true" signature="54:233" ph="/* This class manages which player behaviour is active or overriding, and call its local functions. ... */" />
+                <marker date="1553371927635" expanded="true" signature="277:10544" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="3047:3591" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="3607:4243" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4001:4063" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4085:4141" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4339:5119" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4499:4742" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4557:4738" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4652:4733" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4793:4909" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="4861:4905" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5059:5116" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5221:5722" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5344:5552" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5402:5548" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5497:5543" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5603:5718" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5671:5714" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5837:5873" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="5969:6047" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6050:6166" ph="/* Attempt to set a custom behaviour as the active one. ... */" />
+                <marker date="1553371927635" expanded="true" signature="6216:6311" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6263:6308" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6440:6535" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6484:6532" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6538:6710" ph="/* Attempt to override any active behaviour with the behaviours on queue. ... */" />
+                <marker date="1553371927635" expanded="true" signature="6773:7417" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6857:7398" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="6951:7293" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="7098:7288" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="7215:7282" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="7420:7567" ph="/* Attempt to revoke the overriding behaviour and return to the active one. ... */" />
+                <marker date="1553371927635" expanded="true" signature="7634:7771" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="7685:7752" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="7914:8038" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8143:8198" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8317:8402" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8405:8595" ph="/* Atempt to lock on a specific behaviour. ... */" />
+                <marker date="1553371927635" expanded="true" signature="8645:8723" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8676:8720" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8726:8819" ph="/* Attempt to unlock the current locked behaviour. ... */" />
+                <marker date="1553371927635" expanded="true" signature="8871:8948" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8913:8945" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="8951:9023" ph="/* Common functions to any behaviour: ... */" />
+                <marker date="1553371927635" expanded="true" signature="9058:9110" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9196:9451" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9252:9312" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9374:9433" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9545:9568" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9628:9664" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9745:9775" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="9870:9905" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="10011:10287" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="10050:10284" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="10375:10542" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="10546:10737" ph="/* This is the base class for all player behaviours, any custom behaviour must inherit from this. ... */" />
+                <marker date="1553371927635" expanded="true" signature="10792:12225" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="11279:11542" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="11545:11765" ph="/* Protected, virtual functions can be overridden by inheriting classes. ... */" />
+                <marker date="1553371927635" expanded="true" signature="12094:12124" ph="{...}" />
+                <marker date="1553371927635" expanded="true" signature="12197:12223" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+              <folding>
+                <marker date="1553340321970" expanded="true" signature="199:6449" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="1364:1759" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="1844:2038" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="2011:2035" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="2151:2312" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="2386:4121" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="2504:3200" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="2742:3196" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="3280:4118" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="3425:3585" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="3691:4114" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="4221:4929" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="4806:4838" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="5071:6262" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="5709:6042" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="6187:6232" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="6339:6367" ph="{...}" />
+                <marker date="1553340321970" expanded="true" signature="6418:6447" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,7 +184,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/AimBehaviourBasic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -89,6 +191,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs" />
+        <option value="$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +221,45 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="3rdPerson+Fly" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="3rdPerson+Fly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="3rdPerson+Fly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LevelScripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Slahser_Prototype" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="3rdPerson+Fly" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PlayerScripts" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -167,12 +309,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553365614513</updated>
       <workItem from="1553365617708" duration="151000" />
-      <workItem from="1553365811047" duration="2086000" />
+      <workItem from="1553365811047" duration="2793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2237000" />
+    <option name="totallyTimeSpent" value="2944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,102 +370,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
           <caret line="127" column="44" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
-          <folding>
-            <marker date="1553340321967" expanded="false" signature="6:44" ph="..." />
-            <marker date="1553340321967" expanded="true" signature="195:4624" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1086:1162" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1247:1849" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1337:1379" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1431:1474" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1647:1745" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="1934:2507" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="2159:2504" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="2591:2858" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="2971:3138" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="3289:3314" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="3386:3457" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="3548:4239" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="4293:4622" ph="{...}" />
-            <marker date="1553340321967" expanded="true" signature="4313:4619" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
-            <marker date="1553340321968" expanded="false" signature="6:52" ph="..." />
-            <marker date="1553340321968" expanded="true" signature="54:233" ph="/* This class manages which player behaviour is active or overriding, and call its local functions. ... */" />
-            <marker date="1553340321968" expanded="true" signature="277:10486" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="3029:3533" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="3549:4185" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="3943:4005" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4027:4083" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4281:5061" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4441:4684" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4499:4680" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4594:4675" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4735:4851" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="4803:4847" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5001:5058" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5163:5664" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5286:5494" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5344:5490" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5439:5485" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5545:5660" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5613:5656" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5779:5815" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5911:5989" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="5992:6108" ph="/* Attempt to set a custom behaviour as the active one. ... */" />
-            <marker date="1553340321968" expanded="true" signature="6158:6253" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6205:6250" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6382:6477" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6426:6474" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6480:6652" ph="/* Attempt to override any active behaviour with the behaviours on queue. ... */" />
-            <marker date="1553340321968" expanded="true" signature="6715:7359" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6799:7340" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="6893:7235" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="7040:7230" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="7157:7224" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="7362:7509" ph="/* Attempt to revoke the overriding behaviour and return to the active one. ... */" />
-            <marker date="1553340321968" expanded="true" signature="7576:7713" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="7627:7694" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="7856:7980" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8085:8140" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8259:8344" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8347:8537" ph="/* Atempt to lock on a specific behaviour. ... */" />
-            <marker date="1553340321968" expanded="true" signature="8587:8665" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8618:8662" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8668:8761" ph="/* Attempt to unlock the current locked behaviour. ... */" />
-            <marker date="1553340321968" expanded="true" signature="8813:8890" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8855:8887" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="8893:8965" ph="/* Common functions to any behaviour: ... */" />
-            <marker date="1553340321968" expanded="true" signature="9000:9052" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9138:9393" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9194:9254" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9316:9375" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9487:9510" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9570:9606" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9687:9717" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9812:9847" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9953:10229" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="9992:10226" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="10317:10484" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="10488:10679" ph="/* This is the base class for all player behaviours, any custom behaviour must inherit from this. ... */" />
-            <marker date="1553340321968" expanded="true" signature="10734:12167" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="11221:11484" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="11487:11707" ph="/* Protected, virtual functions can be overridden by inheriting classes. ... */" />
-            <marker date="1553340321968" expanded="true" signature="12036:12066" ph="{...}" />
-            <marker date="1553340321968" expanded="true" signature="12139:12165" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="135:7959" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="2636:3382" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="3398:5163" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="3418:3501" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="3507:3561" ph="/* Get mouse movement to orbit the camera. ... */" />
+            <marker date="1553371889625" expanded="true" signature="4649:4833" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="4807:4828" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5281:5359" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5438:5510" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5580:5621" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5690:5721" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5792:5823" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5891:5927" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="5994:6031" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="6122:6167" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="6268:6324" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="6495:6703" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="6817:7338" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7033:7230" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7158:7226" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7477:7788" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7620:7770" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7738:7766" ph="{...}" />
+            <marker date="1553371889625" expanded="true" signature="7880:7957" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="222">
+          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
           <folding>
             <marker date="1553340321970" expanded="true" signature="199:6449" ph="{...}" />
             <marker date="1553340321970" expanded="true" signature="1364:1759" ph="{...}" />
@@ -347,35 +433,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="90">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <marker date="1553368740669" expanded="true" signature="135:7909" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="2643:3332" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="3348:5113" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="3368:3451" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="3457:3511" ph="/* Get mouse movement to orbit the camera. ... */" />
-            <marker date="1553368740669" expanded="true" signature="4599:4783" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="4757:4778" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5231:5309" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5388:5460" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5530:5571" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5640:5671" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5742:5773" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5841:5877" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="5944:5981" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="6072:6117" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="6218:6274" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="6445:6653" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="6767:7288" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="6983:7180" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="7108:7176" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="7427:7738" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="7570:7720" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="7688:7716" ph="{...}" />
-            <marker date="1553368740669" expanded="true" signature="7830:7907" ph="{...}" />
+            <marker date="1553371927635" expanded="false" signature="6:52" ph="..." />
+            <marker date="1553371927635" expanded="true" signature="54:233" ph="/* This class manages which player behaviour is active or overriding, and call its local functions. ... */" />
+            <marker date="1553371927635" expanded="true" signature="277:10544" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="3047:3591" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="3607:4243" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4001:4063" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4085:4141" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4339:5119" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4499:4742" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4557:4738" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4652:4733" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4793:4909" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="4861:4905" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5059:5116" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5221:5722" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5344:5552" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5402:5548" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5497:5543" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5603:5718" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5671:5714" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5837:5873" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="5969:6047" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6050:6166" ph="/* Attempt to set a custom behaviour as the active one. ... */" />
+            <marker date="1553371927635" expanded="true" signature="6216:6311" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6263:6308" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6440:6535" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6484:6532" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6538:6710" ph="/* Attempt to override any active behaviour with the behaviours on queue. ... */" />
+            <marker date="1553371927635" expanded="true" signature="6773:7417" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6857:7398" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="6951:7293" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="7098:7288" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="7215:7282" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="7420:7567" ph="/* Attempt to revoke the overriding behaviour and return to the active one. ... */" />
+            <marker date="1553371927635" expanded="true" signature="7634:7771" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="7685:7752" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="7914:8038" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8143:8198" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8317:8402" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8405:8595" ph="/* Atempt to lock on a specific behaviour. ... */" />
+            <marker date="1553371927635" expanded="true" signature="8645:8723" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8676:8720" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8726:8819" ph="/* Attempt to unlock the current locked behaviour. ... */" />
+            <marker date="1553371927635" expanded="true" signature="8871:8948" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8913:8945" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="8951:9023" ph="/* Common functions to any behaviour: ... */" />
+            <marker date="1553371927635" expanded="true" signature="9058:9110" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9196:9451" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9252:9312" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9374:9433" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9545:9568" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9628:9664" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9745:9775" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="9870:9905" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="10011:10287" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="10050:10284" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="10375:10542" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="10546:10737" ph="/* This is the base class for all player behaviours, any custom behaviour must inherit from this. ... */" />
+            <marker date="1553371927635" expanded="true" signature="10792:12225" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="11279:11542" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="11545:11765" ph="/* Protected, virtual functions can be overridden by inheriting classes. ... */" />
+            <marker date="1553371927635" expanded="true" signature="12094:12124" ph="{...}" />
+            <marker date="1553371927635" expanded="true" signature="12197:12223" ph="{...}" />
           </folding>
         </state>
       </provider>
