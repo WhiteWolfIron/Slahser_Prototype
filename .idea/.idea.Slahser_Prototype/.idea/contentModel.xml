@@ -25,7 +25,12 @@
         </e>
         <e p="Game" t="Include">
           <e p="Code" t="Include">
-            <e p="ModelImportWindow.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ModelImportWindow.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="ShootBehaviour.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="JMO Assets" t="Include">
