@@ -174,8 +174,8 @@ ModelImporter:
     - serializedVersion: 16
       name: vampire_a_lusth@Shooting Gun
       takeName: mixamo.com
-      firstFrame: 0
-      lastFrame: 159
+      firstFrame: 39
+      lastFrame: 86
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
