@@ -13,6 +13,7 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 	public float minVerticalAngle = -60f;                              // Camera min clamp angle.
 	public string XAxis = "Analog X";                                  // The default horizontal axis input name.
 	public string YAxis = "Analog Y";                                  // The default vertical axis input name.
+	public bool autoReset = false;
 
 	private float angleH = 0;                                          // Float to store camera horizontal angle related to mouse movement.
 	private float angleV = 0;                                          // Float to store camera vertical angle related to mouse movement.
@@ -56,6 +57,13 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 
 	void Update()
 	{
+		if (autoReset)
+		{
+			ResetTargetOffsets();
+			ResetMaxVerticalAngle();
+			ResetYCamOffset();
+		}
+		
 		// Get mouse movement to orbit the camera.
 		// Mouse:
 		angleH += Mathf.Clamp(Input.GetAxis("Mouse X"), -1, 1) * horizontalAimingSpeed;

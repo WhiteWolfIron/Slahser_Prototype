@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\IXI\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\IXI\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Slahser_Prototype.218587029.00" t="ExcludeRecursive" />
+    <e p="D:\Code\Slahser_Prototype" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="3rdPerson+Fly" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="LevelScripts" t="Include">
+              <e p="ControlsTutorial.cs" t="Include" />
+              <e p="HintManagement.cs" t="Include" />
+              <e p="ThirdPersonOrbitCamBasic.cs" t="Include" />
+            </e>
+            <e p="PlayerScripts" t="Include">
+              <e p="AimBehaviourBasic.cs" t="Include" />
+              <e p="BasicBehaviour.cs" t="Include" />
+              <e p="MoveBehaviour.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Cartoon Temple Building Kit" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="Game" t="Include">
+          <e p="Code" t="Include">
+            <e p="ModelImportWindow.cs" t="Include" />
+          </e>
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WarFX" t="Include">
+            <e p="!WarFX Readme.txt" t="Include" />
+            <e p="_Effects" t="Include">
+              <e p="MuzzleFlashes" t="Include">
+                <e p="!MuzzleFlash Differences.txt" t="Include" />
+              </e>
+            </e>
+            <e p="_Effects (Mobile)" t="Include">
+              <e p="MuzzleFlashes" t="Include">
+                <e p="!MuzzleFlash Differences.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Demo" t="Include">
+              <e p="Assets" t="Include">
+                <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                <e p="CFX_Demo_Translate.cs" t="Include" />
+                <e p="WFX_Demo.cs" t="Include" />
+                <e p="WFX_Demo_DeleteAfterDelay.cs" t="Include" />
+                <e p="WFX_Demo_New.cs" t="Include" />
+                <e p="WFX_Demo_RandomDir.cs" t="Include" />
+                <e p="WFX_Demo_Wall.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="CFX_SpawnSystemEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+              <e p="WFX_BulletHoleDecal.cs" t="Include" />
+              <e p="WFX_LightFlicker.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="WFX_S Add Scroll.shader" t="Include" />
+              <e p="WFX_S Alpha-Diffuse TintColor.shader" t="Include" />
+              <e p="WFX_S Alpha-Specular TintColor.shader" t="Include" />
+              <e p="WFX_S AlphaBlend NoSoftParticles.shader" t="Include" />
+              <e p="WFX_S AlphaBlend Scroll.shader" t="Include" />
+              <e p="WFX_S Multiply Soft Scroll.shader" t="Include" />
+              <e p="WFX_S Multiply Soft.shader" t="Include" />
+              <e p="WFX_S Particle Add A8.shader" t="Include" />
+              <e p="WFX_S Particle AddSoft A8.shader" t="Include" />
+              <e p="WFX_S Particle Multiply A8.shader" t="Include" />
+              <e p="WFX_S Smoke Scroll.shader" t="Include" />
+            </e>
+            <e p="Spawn System" t="Include">
+              <e p="CFX_SpawnSystem.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Slahser_Prototype.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
