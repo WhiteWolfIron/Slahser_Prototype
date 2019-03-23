@@ -332,7 +332,7 @@ public class BasicBehaviour : MonoBehaviour
 public abstract class GenericBehaviour : MonoBehaviour
 {
 	//protected Animator anim;                       // Reference to the Animator component.
-	protected int speedFloat;                      // Speed parameter on the Animator.
+	protected readonly int speedFloat= Animator.StringToHash("Speed");                      // Speed parameter on the Animator.
 	protected BasicBehaviour behaviourManager;     // Reference to the basic behaviour manager.
 	protected int behaviourCode;                   // The code that identifies a behaviour.
 	protected bool canSprint;                      // Boolean to store if the behaviour allows the player to sprint.
@@ -341,7 +341,6 @@ public abstract class GenericBehaviour : MonoBehaviour
 	{
 		// Set up the references.
 		behaviourManager = GetComponent<BasicBehaviour> ();
-		speedFloat = Animator.StringToHash("Speed");
 		canSprint = true;
 
 		// Set the behaviour code based on the inheriting class.
