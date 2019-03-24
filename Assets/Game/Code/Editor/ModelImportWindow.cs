@@ -22,15 +22,15 @@ namespace Game.Editor
                 ForeachSelected(RenameAnimation, "Renaming animations");
             }
 
-            if (GUILayout.Button("Rename animations"))
+            if (GUILayout.Button("Fix root motion"))
             {
-                ForeachSelected(RenameAnimation, "Renaming animations");
+                ForeachSelected(FixRootMotion, "Fixing root motion");
             }
         }
 
-        void ForeachSelected(UnityAction<Object> action, string title = "Process", string info = "Please wait...")
+        void ForeachSelected(UnityAction<Object> action, string title = "Process", string info = "Please wait... ")
         {
-            var count = Selection.objects.Length;
+            int count = Selection.objects.Length;
             var current = 0;
             foreach (var obj in Selection.objects)
             {
@@ -60,12 +60,19 @@ namespace Game.Editor
 
         void RenameAnimation(Object obj)
         {
+            ModifyAnimation(obj, anim =>anim.name = obj.name);
+        }
+
+        void FixRootMotion(Object obj)
+        {
             ModifyAnimation(obj, anim =>
                 {
-                    anim.name = obj.name;
                     anim.lockRootRotation = true;
                     anim.lockRootHeightY = true;
-                    anim.lockRootPositionXZ = true;
+                    anim.lockRootPositionXZ = false;
+                    anim.keepOriginalOrientation = true;
+                    anim.keepOriginalPositionY = true;
+                    anim.keepOriginalPositionXZ = true;
                 }
             );
         }
