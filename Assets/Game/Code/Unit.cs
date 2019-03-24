@@ -7,12 +7,12 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Unit : MonoBehaviour
 {
+    public float maxHealth = 100;
+
     [SerializeField]
     Fraction _fraction;
 
-    [SerializeField]
-    Health _unitHealth;
-
+    protected Health _unitHealth;
     protected Rigidbody _rigidbody;
     protected Animator _animator;
 
@@ -25,6 +25,14 @@ public class Unit : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
+
+        _unitHealth = new Health(maxHealth, OnDie);
+    }
+
+    public void ApplyDamage(float damage, Vector3 force)
+    {
+        _rigidbody.AddForce(force, ForceMode.VelocityChange);
+        ApplyDamage(damage);
     }
 
     public void ApplyDamage(float damage)
@@ -32,10 +40,9 @@ public class Unit : MonoBehaviour
         _unitHealth.ApplyDamage(damage);
     }
 
-    public void ApplyDamage(float damage, Vector3 force)
+    protected virtual void OnDie()
     {
-        ApplyDamage(damage);
-        _rigidbody.AddForce(force, ForceMode.VelocityChange);
+        _animator.SetTrigger(AnimatorHash.die);
     }
 
     public void ApplyHeal(float amount)
