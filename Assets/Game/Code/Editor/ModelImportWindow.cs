@@ -21,23 +21,28 @@ namespace Game.Editor
             {
                 ForeachSelected(RenameAnimation, "Renaming animations");
             }
+
+            if (GUILayout.Button("Rename animations"))
+            {
+                ForeachSelected(RenameAnimation, "Renaming animations");
+            }
         }
 
         void ForeachSelected(UnityAction<Object> action, string title = "Process", string info = "Please wait...")
         {
             var count = Selection.objects.Length;
-            var current = 0f;
+            var current = 0;
             foreach (var obj in Selection.objects)
             {
                 current++;
-                EditorUtility.DisplayProgressBar(title, info, current / count);
+                EditorUtility.DisplayProgressBar(title, info + current + "/" + count, (float)current / count);
                 action(obj);
             }
 
             EditorUtility.ClearProgressBar();
         }
 
-        void RenameAnimation(Object obj)
+        void ModifyAnimation(Object obj, UnityAction<ModelImporterClipAnimation> action)
         {
             var path = AssetDatabase.GetAssetPath(obj);
             var importer = AssetImporter.GetAtPath(path) as ModelImporter;
@@ -48,12 +53,21 @@ namespace Game.Editor
 
             var anims = importer.clipAnimations.Length > 0 ? importer.clipAnimations : importer.defaultClipAnimations;
             var anim = anims[0];
-            anim.name = obj.name;
-            anim.lockRootRotation = true;
-            anim.lockRootHeightY = true;
-            anim.lockRootPositionXZ = true;
+            action(anim);
             importer.clipAnimations = anims;
             importer.SaveAndReimport();
+        }
+
+        void RenameAnimation(Object obj)
+        {
+            ModifyAnimation(obj, anim =>
+                {
+                    anim.name = obj.name;
+                    anim.lockRootRotation = true;
+                    anim.lockRootHeightY = true;
+                    anim.lockRootPositionXZ = true;
+                }
+            );
         }
     }
 }

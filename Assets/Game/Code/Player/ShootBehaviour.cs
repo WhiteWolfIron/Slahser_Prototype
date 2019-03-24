@@ -5,15 +5,19 @@ namespace Game.Player
     public class ShootBehaviour : GenericBehaviour
     {
         [SerializeField] string shootButton = "Fire1";
+        [SerializeField] string triggerName = "Shoot";
+        [SerializeField] string indexName = "ShootIndex";
         [SerializeField] ParticleSystem muzzleEffect;
 
-        readonly int shootTrigger = Animator.StringToHash("Shoot1");
-
+        int shootTrigger;
+        int shootIndex;
         Animator animator;
 
         void Awake()
         {
             animator = GetComponent<Animator>();
+            shootTrigger = Animator.StringToHash(triggerName);
+            shootIndex = Animator.StringToHash(indexName);
         }
 
         void Update()
@@ -23,10 +27,13 @@ namespace Game.Player
 
         void CheckShooting(int trigger, string buttonName)
         {
-            if (Input.GetButtonDown(buttonName))
+            if (!Input.GetButtonDown(buttonName))
             {
-                animator.SetTrigger(trigger);
+                return;
             }
+
+            animator.SetTrigger(trigger);
+            animator.SetInteger(shootIndex, 0);
         }
 
         void Shoot()
