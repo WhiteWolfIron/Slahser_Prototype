@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAttackBehaviour : MonoBehaviour
+public class EnemyAttackBehaviour : StateMachineBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        animator.ResetTrigger(AnimatorHash.attack);
     }
 }

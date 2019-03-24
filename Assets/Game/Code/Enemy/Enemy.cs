@@ -116,6 +116,13 @@ public class Enemy : Unit
         }
     }
 
+    protected override void OnDie()
+    {
+        base.OnDie();
+
+        StopMovement();
+    }
+
     [Header("Hitbox")]
     public Vector3 hitVectorPosition = new Vector3(0, 1, 1);
     public Vector3 hitVectorSize = new Vector3(2, 4, 2);
