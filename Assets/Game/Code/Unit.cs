@@ -32,6 +32,12 @@ public class Unit : MonoBehaviour
         _unitHealth.ApplyDamage(damage);
     }
 
+    public void ApplyDamage(float damage, Vector3 force)
+    {
+        ApplyDamage(damage);
+        _rigidbody.AddForce(force, ForceMode.VelocityChange);
+    }
+
     public void ApplyHeal(float amount)
     {
         _unitHealth.ApplyHeal(amount);
