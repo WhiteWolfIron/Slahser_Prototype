@@ -25,13 +25,20 @@
         </e>
         <e p="Game" t="Include">
           <e p="Code" t="Include">
+            <e p="AnimatorHash.cs" t="Include" />
             <e p="Editor" t="Include">
               <e p="ModelImportWindow.cs" t="Include" />
             </e>
+            <e p="Enemy" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyAttackBehaviour.cs" t="Include" />
+            </e>
+            <e p="Health.cs" t="Include" />
             <e p="Player" t="Include">
               <e p="AttackBehaviour.cs" t="Include" />
               <e p="ShootBehaviour.cs" t="Include" />
             </e>
+            <e p="Unit.cs" t="Include" />
           </e>
         </e>
         <e p="JMO Assets" t="Include">
@@ -91,6 +98,13 @@
             <e p="Spawn System" t="Include">
               <e p="CFX_SpawnSystem.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="MeleeWeaponTrail" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Interpolate.cs" t="Include" />
+            <e p="MeleeWeaponTrail.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
